@@ -1,2 +1,2 @@
-import UsuarioController  from "./usuario.controller"
+import UsuarioController  from "./customer.controller"
 export {UsuarioController}

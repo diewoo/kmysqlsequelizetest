@@ -1,15 +1,15 @@
 import * as express from "express";
 import { json, urlencoded} from 'body-parser'
-import { Routes } from './routes/index'
+import { CustomerRoutes } from './routes/index'
 import { Express } from 'express'
 export class App {
   public app: Express;
-  public routePrv: Routes = new Routes();
+  public routeCustomer: CustomerRoutes = new CustomerRoutes();
 
   constructor() {
     this.app = express();
     this.config();
-    this.routePrv.routes(this.app);
+    this.routeCustomer.routes(this.app);
   }
 
   private config(): void {
