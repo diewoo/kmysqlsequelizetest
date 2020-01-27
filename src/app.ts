@@ -1,5 +1,5 @@
 import * as express from "express";
-import { json, urlencoded } from 'body-parser'
+import { json, urlencoded} from 'body-parser'
 import { Routes } from './routes/index'
 import { Express } from 'express'
 export class App {

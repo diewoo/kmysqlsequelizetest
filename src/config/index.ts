@@ -1,2 +1,2 @@
-  
-export { database as initializeDatabase } from "./database.config"
+import {sequelize}  from "./sequelize"
+export {sequelize}
