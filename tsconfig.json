@@ -10,11 +10,9 @@
     "sourceMap": true,
     "declaration": false,
     "pretty": true,
-    // "strictNullChecks": true,
     "skipLibCheck": true,
     // "outDir": "./dist",
-    // "baseUrl": "src",
-    "strictPropertyInitialization": true
+    // "baseUrl": "src"
   },
   "include": ["src/**/*.ts", "server.ts"],
   "exclude": ["node_modules"]
