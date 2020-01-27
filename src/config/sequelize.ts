@@ -1,5 +1,4 @@
 import { Sequelize } from "sequelize-typescript";
-// import { Customer } from '../models/customer.model'
 export const sequelize = new Sequelize({
   username: "root",
   password: "password",
